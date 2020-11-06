@@ -1,0 +1,27 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  /* margin-top: 60px; */
+}
+
+.background-image-wrapper{
+  position: relative;
+  width: 800px;
+  height: 450px;
+  background-image: url('./assets/tesla-image.jpg');
+}
+
+.hot-spot-wrapper{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}
+
+.rectangle {
+  border: 1px solid #FF0000;
+  position: absolute;
+}
