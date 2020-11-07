@@ -1,7 +1,7 @@
 # poolzoom
 p.o.c. poolzoom
 
-Installation instruction on local machine:
+Installation instructions on local machine:
 
 install nodejs
 
