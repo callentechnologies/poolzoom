@@ -25,3 +25,81 @@
   border: 1px solid #FF0000;
   position: absolute;
 }
+
+.menu-box,
+.delete-box{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: lightgrey;
+  z-index: 1;
+}
+
+.menu-box{
+  width: 200px;
+  min-height: 200px;
+}
+
+.delete-box.show{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+}
+
+.popup-menu-list-wrapper{
+  visibility: hidden;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 150px;
+  max-height: 100px;
+  overflow-y: auto;
+  background-color: white;
+  font-size: 14px;
+}
+
+.list-item{
+  width: 100%;
+}
+
+.list-item:hover{
+  background-color: lightgrey;
+  color: white;
+}
+
+.popup-menu-list-wrapper.show{
+  visibility: visible;
+}
+
+.col-flex-center{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.popup-menu-list-input{
+  width: 150px;
+}
+
+.menu-box.show{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.wrapper-buttons{
+  margin-top: 10px;
+}
+
+input {
+  border: 0px solid;
+  padding: 0;
+  height: 20px;
+}
